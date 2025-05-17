@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ptBr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Share+Tech&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Clima APP</title>
+</head>
+<body>
+
+    <main class="container">
+        <div class="pesquisar">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Insira sua localização">
+            <button class="fa-solid fa-magnifying-glass"></button>            
+        </div>
+
+        <div class="nao-encontrado">
+            <img src="img/invalido.png" alt="Não encontrado">
+            <p>Localização Inválida!!</p>
+        </div>
+
+        <div class="clima">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+        </div>
+
+        <div class="clima-detalhes">            
+            <div class="humidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="info">
+                    <span></span>
+                    <p>Humidade</p>
+                </div>
+            </div>
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="info">
+                    <span></span>
+                    <p>Velocidade do Vento</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://kit.fontawesome.com/7d21004ae4.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
